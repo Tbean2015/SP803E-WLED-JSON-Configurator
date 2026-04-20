@@ -17,7 +17,7 @@ jobs:
       - run: pip install pyinstaller
 
       - run: |
-          pyinstaller --windowed --name WLED-Config-Batch-MacOS WLED-Config-Batch.py
+          pyinstaller --windowed --name WLED-Config-Individual-MacOS WLED-Config-Individual.py
 
       - uses: actions/upload-artifact@v4
         with:
